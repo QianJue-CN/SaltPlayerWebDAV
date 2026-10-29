@@ -1,0 +1,17 @@
+{
+  "configs": [
+    {
+      "title": "WebDAV 音乐库",
+      "config": "config.json",
+      "preferences": [
+        {
+          "type": "button",
+          "title": "内嵌连接设置与双向同步",
+          "summary": "启用模组并授予“方法与 UI Hook”权限后，此页将直接显示连接、同步与远端音乐设置。点击查看当前状态。",
+          "arrow_type": "none",
+          "on_click": "com.saltplayermod.webdav.WebDavPlugin.checkSettings"
+        }
+      ]
+    }
+  ]
+}
